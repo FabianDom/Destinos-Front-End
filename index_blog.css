@@ -1,0 +1,22 @@
+
+.container__blog {
+ margin-top: 112px;   
+}
+.destino__titulo {
+    color: var(--grafito);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+
+.destino__titulo--subrayado {
+    width: 180px;
+    height: 4px;
+    background: var(--rojo);
+    margin: 0 auto;
+    margin-top: 16px;
+}
