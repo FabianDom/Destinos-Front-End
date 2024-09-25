@@ -1,5 +1,6 @@
 .container__blog {
-  margin: 112px 360px;
+    max-width: 1200px;
+    margin: 112px auto;
 }
 .destino__titulo {
   color: var(--grafito);
@@ -19,8 +20,6 @@
   margin-top: 16px;
 }
 
-.informacion {
-}
 .informacion__elementos {
   display: flex;
   gap: 12px;
@@ -33,7 +32,7 @@
 }
 .informacion__texto {
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     line-height: normal;
 }
