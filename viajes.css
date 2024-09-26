@@ -89,3 +89,20 @@ margin-bottom: 20px;
 .pago__subtitulo {
     font-size: 25px;
 }
+
+.testimonios__viajes{
+    display: flex;
+    gap: 10px;
+}
+
+.testimonios__viajes__informacion {
+    width: 33%;
+}
+
+.testionio__imagen {
+    margin-top: 10px;
+    width: 60%;
+}
+.imagen__footer {
+    width: 100%;
+}
