@@ -87,16 +87,19 @@
       </section>
       <section class="formulario__contacto">
         <div class="formulario__input">
-          <input name="Nombre" placeholder="Nombre" type="text" />
-          <div>
-            <input name="Nombre" placeholder="Nombre" type="text" />
+          <input class="formulario__item__nombre" name="Nombre" placeholder="Tu Nombre" type="text" />
+          <div class="formulario__input__doble">
+            <input class="formulario__item" name="Telefono" placeholder="Telefono" type="text" />
 
-            <input name="Nombre" placeholder="Nombre" type="text" />
+            <input class="formulario__item"  name="Correo" placeholder="Correo" type="text" />
           </div>
 
-          <input type="text" />
-          <label for=""></label>
-          <textarea name="" id=""></textarea>
+          <input class="formulario__item"  name="Tema" placeholder="Tema" type="text" />
+          <div class="formulario__textarea">
+            <label class="formulario__label__tema" for="textarea">Tema</label>
+            <textarea class="formulario__item__tema" name="tema" id="textarea"></textarea>
+          </div>
+          <button>Enviar!</button>
         </div>
       </section>
     </main>
