@@ -1,0 +1,18 @@
+.formulario__container {
+  margin-top: 112px;
+}
+.formulario__texto {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.formulario__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
